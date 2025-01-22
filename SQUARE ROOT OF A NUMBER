@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main ()
+{
+ double n ;
+  printf ( " Enter the n " ) ;
+  scanf ( " %lf " , &n ) ;
+  printf ( " %lf %lf " , n , sqrt(n) ) ;
+  return 0 ;
+}
