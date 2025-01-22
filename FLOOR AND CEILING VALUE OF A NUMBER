@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main ()
+{
+ double n ;
+  printf ( " Enter the n " ) ;
+  scanf ( " %lf " , &n ) ;
+  printf ( " floor of %lf , ceiling of %ln " , floor (n) , ceil (n) ) ;
+  return 0 ;
+}
