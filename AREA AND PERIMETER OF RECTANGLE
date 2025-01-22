@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main ()
+{
+ double l , w , a , p ;
+  //input l , w of the rectangle
+  printf ( " Enter the l " ) ;
+  scanf ( " %lf " , &l ) ;
+  printf ( " Enter the w " ) ;
+  scanf ( " %lf " , &w ) ;
+  //calculate a and p
+  a= l*w ;
+  p= 2*(l+w) ;
+  //print the results
+  printf ( " %lf " , a ) ;
+  printf ( " %f ", p ) ;
+  return 0 ;
+}
