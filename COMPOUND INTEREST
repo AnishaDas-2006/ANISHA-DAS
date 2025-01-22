@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main ()
+{
+  double p , r , t , CI ;
+  //input p , r , t
+  printf ( " Enter the p ") ;
+  scanf ( " %lf " , &p ) ;
+  printf ( "Enter the r " ) ;
+  scanf ( " %lf " , &r ) ;
+  printf ( " Enter the t ") ;
+  scanf ( " %lf " , &t ) ;
+  //Calculate the CI
+  CI= p * pow (( 1+ r/100) , t ) - p ;
+  //print the result
+  printf ( " %lf " , CI ) ;
+  return 0 ;
+}
