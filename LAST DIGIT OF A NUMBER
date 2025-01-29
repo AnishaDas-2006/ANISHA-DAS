@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+ int a , LD ;
+  printf ( " Enter the a " ) ;
+  scanf ( " %d " , &a ) ;
+  LD = a-(a/10)*10 ;
+  printf (" %d " , LD ) ;
+}
